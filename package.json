@@ -6,9 +6,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "nuxt": "^3.4.1"
+    "nuxt": "^3.4.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "eslint": "^8.38.0"
   }
 }
